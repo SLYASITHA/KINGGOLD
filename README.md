@@ -7,7 +7,7 @@
 🇱🇰 FORE QR SCAN 👇 QR කේතය ලබාගැනීමට පහත රූපය මත ටච් කරන්න
 
 [![Run on Repl.it](resources/gif/qr-scan.gif?size=40)](https://replit.com/@YasithaUdayang1/KING-GOLD-QR#index.js)
-For Deploy 👇👇👇 බොට්ව සෑදීම සදහා පහත රූපය මත ටච් කරන්න
+For Deploy � බොට්ව සෑදීම සදහා පහත රූපය මත ටච් කරන්න
 
 [![Deploy](resources/gif/IMG_20210724_012025.png?size=40)](https://bit.ly/2XrSqFG1)
 
@@ -22,8 +22,8 @@ For Deploy 👇👇👇 බොට්ව සෑදීම සදහා පහත �
 <img src="https://i.ibb.co/MscSKVN/KING-GOLD-THE-WHATSAPP-BOT.jpg" />
   </div>
 
-- [RavinduManoj](https://github.com/SLYASITHA)
-- [@RavinduManoj](https://t.me/YASITHA OFFICAL)
+- [@YsithaOffical](https://github.com/SLYASITHA)
+- [@YasithaOffical](https://t.me/YASITHA OFFICAL)
 
 
 <div align="center">
@@ -32,76 +32,18 @@ For Deploy 👇👇👇 බොට්ව සෑදීම සදහා පහත �
   
   <h1>🍁  Whatsapp Bot By YASITHA OFFICAL  🍁</h1>
   <h1>🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰</h1>
-</div>
-<p align="center">
-    KingGOLD project - Makes it easy and fun to use Whatsapp. Also userbot for Whatsapp.
-    <br>
-        <a href="https://t.me/YASITHAOFFICAL">Telegram Number</a> |
-        <a href="https://t.me/AsenaSupport">Telegram Group</a> |
-        <a href="https://t.me/asenaremaster">New Support Group</a> |
 
-    <br>
-</p>
-
-----
-![Docker Pulls](https://img.shields.io/docker/pulls/fusuf/whatsasena?style=flat-square) ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/fusuf/whatsasena?style=flat-square)
-
-## 🇱🇰 🔎 What is SewQueen?
-**SewQueen,** is a WhatsApp helper bot written by [YASITHA OFFICAL](https://github.com/SLYASITHA). Does not log into your account It is written on WhatsApp Web API.
-
-<h1>🇱🇰 Setup </h1>
 
 
 
 ##
 
 ### ⚒️ Setup Wiki - Kurulum [Full Guide - By YASITHA OFFICAL]
-[![Setup - Yasiya](https://github.com/SLYASITHA/imagehosting/blob/7d17c40df5099525556eb014b20a13eca4ac1176/20210628_090852.png?size=75 )](https://github.com/SLYASITHA/YasiyaBot/wiki)
+[![Setup - Yasiya](https://i.ibb.co/MscSKVN/KING-GOLD-THE-WHATSAPP-BOT.jpg?size=75 )](https://github.com/SLYASITHA/YasiyaBot/wiki)
 
-##
-<details>
-    <summary>&#127942 <b>Warning</b></summary>
+
     
-### 🇱🇰 ⚠️ Warning! 
-```
-Due to Userbot; Your WhatsApp account may be banned.
-This is an open source project, you are responsible for everything you do. 
-Absolutely, SewQueen executives do not accept responsibility.
-By establishing the SewQueen, you are deemed to have accepted these responsibilities.
-```
-
-<div align="center">
-<img src="https://github.com/KINGGOLDYASITHAOFFICALKing/imagehosting/blob/00aa7f2685f0114a2111f57149d8f0a27b2481c9/VID-20210724-WA0003.gif" />
-  </div>p
-</details>
-
-##🇱🇰 Developer 🍁
-
-[![YASITHA OFFICAL](https://bit.ly/3AyW139)](https://github.com/KINGGOLDYASITHAOFFICALKing/KINGGOLDYASITHAOFFICALKing#Readme.md)
-
-## Thanks To
-- [@adiwajshing](https://github.com/adiwajshing) for coded [Baileys](https://github.com/adiwajshing/Baileys) 
-
-## License
-This project is protected by `GNU General Public Licence v1.0` license.
-
-### Disclaimer
-`WhatsApp` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
-
-<div align="center">
-  <img src="https://i.ibb.co/MscSKVN/KING-GOLD-THE-WHATSAPP-BOT.jpg" width="250" height="250">
-  <h1>🍁  Whatsapp Bot By YASITHA OFFICAL  🍁</h1>
-  <h1>🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰</h1>
-</div>
-
-<div align="center">
-<img src="https://i.ibb.co/MscSKVN/KING-GOLD-THE-WHATSAPP-BOT.jpg" />
-  </div>
-  
-<details>
-    <summary>&#127942 <b>SewQueen Features</b></summary>
-    
-## 🇱🇰 SewQueen Features
+## 🇱🇰 KingGOLD Features
 
 | All Features 📢|Available ☑️|Version 🔎|
 | ------------- | ------------ | ---------- |

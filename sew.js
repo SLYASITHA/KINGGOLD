@@ -541,13 +541,13 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                             await command.function(whats, match);
                         }
                         catch (error) {
-                            if (Raviya.NOLOG == 'true') return;
+                            if (Yasiya.NOLOG == 'true') return;
                             var error_report = await Pach.error(Raviya.LANG)
                             await CdSew.sendMessage(CdSew.user.jid, error_report.replace('{real_error}', error), MessageType.text, {detectLinks: false})
 
-                            if (Raviya.LANG == 'SI') {
+                            if (Yasiya.LANG == 'SI') {
                                 if (error.message.includes('URL')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [King Gold] ♀️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝශය:* _භාවිත කලහැක්කෙ URL පමණි_' +
                                         '\n*හේතුව:* _LOG අංකය තුළ මාධ්‍ය මෙවලම් (xmedia, ස්ටිකර් ..) භාවිතය._' +
@@ -556,7 +556,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('conversation')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝශය:* _ප්ලගින් ඉවත් කිරීම_' +
                                         '\n*හේතුව:* _ප්ලගිනයේ නම වැරදි ලෙස ඇතුළත් කිරීම මැකීමට අවශ්‍යය_' +
@@ -565,7 +565,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝශය:* _Split of Undefined_' +
                                         '\n*හේතුව:* _Commands that can be used by group admins occasionally dont see the split function._ ' +
@@ -574,7 +574,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('SSL')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝශය:* _SQL Database Error_' +
                                         '\n*හේතුව:* _Database corruption._ ' +
@@ -583,7 +583,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝශය:* _Ookla Server Connection_' +
                                         '\n*හේතුව:* _Speedtest data cannot be transmitted to the server._' +
@@ -592,7 +592,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝශය:* _Requested Audio Params_' +
                                         '\n*හේතුව:* _Using the TTS command outside the Latin alphabet._' +
@@ -601,7 +601,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත``` ==========' +
                                         '\n\n*ප්‍රධාන දෝශය:* _එවැනි ගොනුවක් හෝ ඩිරෙක්ටරියක් නැත_' +
                                         '\n*හේතුව:* _ප්ලගිනයේ වැරදි කේතනීකරණය._' +
@@ -610,7 +610,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝශය:* _ 404 HTTPS දෝශය_' +
                                         '\n*හේතුව:* _හෙරෝකු ප්ලගිනය යටතේ ඇති විධානයන් භාවිතා කිරීම හේතුවෙන් සේවාදායකයා සමඟ සන්නිවේදනය කිරීමට නොහැකි වීම._' +
@@ -619,7 +619,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝශය:* _Reply Delete කාර්යය_' +
                                         '\n*හේතුව:* _IMG හෝ WIKI විධානයන් භාවිතා කිරීම.._' +
@@ -628,7 +628,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝශය:* _Reply Delete කාර්යය_' +
                                         '\n*හේතුව:* _IMG හෝ WIKI විධානයන් භාවිතා කිරීම.._' +
@@ -637,7 +637,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝශය:* _Bailyes ක්‍රියාකිරීමේ දෝශය_ ' +
                                         '\n*හේතුව:* _නිශ්චිත හේතුව නොදනී. විකල්ප කිහිපයක් මෙම දෝෂය ඇති වීමට හේතු විය හැක.._' +
@@ -646,7 +646,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝශය:* _පෙළ හෝ මාධ්‍ය විකේතනය කළ නොහැක_' +
                                         '\n*හේතුව:* _කමාන්ඩ් එක වැරදි ලෙස භාවිතා කිරීම._' +
@@ -655,7 +655,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ දෝෂ විශ්ලේෂණය [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝශය:* _අකුරු චරිත භාවිතය_' +
                                         '\n*හේතුව:* _ලතින් හෝඩියේ පිටත TTP, ATTP වැනි විධානයන් භාවිතා කිරීම._' +
@@ -673,7 +673,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                             else {
                                
                                 if (error.message.includes('URL')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Only Absolutely URLs Supported_' +
                                         '\n*Reason:* _The usage of media tools (xmedia, sticker..) in the LOG number._' +
@@ -682,7 +682,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('conversation')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Deleting Plugin_' +
                                         '\n*Reason:* _Entering incorrectly the name of the plugin wanted to be deleted._' +
@@ -691,7 +691,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Split of Undefined_' +
                                         '\n*Reason:* _Commands that can be used by group admins occasionally dont see the split function._ ' +
@@ -700,7 +700,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('SSL')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _SQL Database Error_' +
                                         '\n*Reason:* _Database corruption._ ' +
@@ -709,7 +709,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Ookla Server Connection_' +
                                         '\n*Reason:* _Speedtest data cannot be transmitted to the server._' +
@@ -718,7 +718,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Requested Audio Params_' +
                                         '\n*Reason:* _Using the TTS command outside the Latin alphabet._' +
@@ -727,7 +727,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```Error Resolved``` ==========' +
                                         '\n\n*Main Error:* _No Such File or Directory_' +
                                         '\n*Reason:* _Incorrect coding of the plugin._' +
@@ -736,7 +736,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Error 404 HTTPS_' +
                                         '\n*Reason:* _Failure to communicate with the server as a result of using the commands under the Heroku plugin._' +
@@ -745,7 +745,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
                                         '\n*Reason:* _Using IMG or Wiki commands._' +
@@ -754,7 +754,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
                                         '\n*Reason:* _Using IMG or Wiki commands._' +
@@ -763,7 +763,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Bailyes Action Error_ ' +
                                         '\n*Reason:* _The exact reason is unknown. More than one option may have triggered this error._' +
@@ -772,7 +772,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Cannot Decode Text or Media_' +
                                         '\n*Reason:* _Incorrect use of the plug._' +
@@ -781,7 +781,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [Sew Queen] 🧟‍♀️*' + 
+                                    return await CdSew.sendMessage(CdSew.user.jid, '*🧟‍♂️ ERROR ANALYSIS [King Gold] 🧟‍♀️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Word Character Usage_' +
                                         '\n*Reason:* _Using commands such as TTP, ATTP outside the Latin alphabet._' +
@@ -809,7 +809,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
     } catch {
         if (!nodb) {
             console.log(chalk.red.bold('Loading Old Version Session...'))
-            CdSew.loadAuthInfo(Session.deCrypt(Raviya.SESSION)); 
+            CdSew.loadAuthInfo(Session.deCrypt(Yasiya.SESSION)); 
             try {
                 await CdSew.connect();
             } catch {
@@ -819,4 +819,4 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
     }
 }
 
-sewQueen();
+KingGold();

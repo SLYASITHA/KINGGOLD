@@ -1,20 +1,20 @@
-/* Coded By Ravindu Manoj.
+/* Coded By YASITHA OFFICAL.
 
-Licensed under the  GPL-3.0 License;
+Licensed under the  GPL-1.0 License;
 you may not use this file except in compliance with the License.
 
-Whats bot - Ravindu Manoj
+Whats bot - YASITHA OFFICAL
 
 */
 
 function successfullMessage(msg) {
-    return "🇱🇰 *SewQueen*:  ```" + msg + "```"
+    return "🇱🇰 *KingGold*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🥴 *SewQueen*:  ```" + msg + "```"
+    return "🥴 *KingGold*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "🐲 *SewQueen*:  ```" + msg + "```"
+    return "💕 *KingGold*:  ```" + msg + "```"
 }
 
 

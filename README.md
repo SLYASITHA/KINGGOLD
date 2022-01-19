@@ -19,7 +19,7 @@ For Deploy � බොට්ව සෑදීම සදහා පහත රූප�
 ### KINGGOLD BOT FOR YOUR HELP😇
 
 <div align="center">
-<img src="https://i.ibb.co/MscSKVN/KING-GOLD-THE-WHATSAPP-BOT.jpg"/>
+ <img border-radius: 15px src="https://i.ibb.co/WGNfQhB/IMG-20210820-001112.jpg" width="200" height="200"/>
  
 
     

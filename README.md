@@ -12,30 +12,14 @@ For Deploy 👇👇👇 බොට්ව සෑදීම සදහා පහත �
 [![Deploy](resources/gif/IMG_20210724_012025.png?size=40)](https://bit.ly/2XrSqFG1)
 
 
-#
 
-#
-## repl.it මගින් qr කේතය ලබා ගැනීමට අපහසු නම්..
-### termux qr කෝඩ් එක ලබාගැනීමට අවශ්‍ය මූලික පැකේජ් නොමැතින් නම් පහත කමාන්ඩ් ලබා දෙන්න
-දැනටමත් මෙම පැකේජ ඇත්නම් අවශ්‍ය නැත
-```
-$ pkg upgrade && pkg update
-$ pkg install npm && pkg install git
-$ pkg install node
-```
-### termux or console  එකක් මගින් qr එක ලබා ගැනීමට පහත කමාන්ඩ් යොදන්න
-```
-$ git clone https://github.com/SLYASITHA/KINGGOLD/KINGGOLD.git
-$ cd KING
-$ npm i
-$ index qr.js
 ```
 
 ## YASITHA OFFICAL 
 ### KINGGOLD BOT FOR YOUR HELP😇
 
 <div align="center">
-<img src="https://github.com/Sew01RaviduManoj01KingAndQueen/imagehosting/blob/00aa7f2685f0114a2111f57149d8f0a27b2481c9/VID-20210724-WA0003.gif" />
+<img src="https://i.ibb.co/MscSKVN/KING-GOLD-THE-WHATSAPP-BOT.jpg" />
   </div>
 
 - [RavinduManoj](https://github.com/RavinduManoj)
@@ -43,7 +27,7 @@ $ index qr.js
 
 
 <div align="center">
-  <img src="https://github.com/RavinduManoj/imagehosting/blob/e18b9131ed1b5ec87d58359781c2a9c1044df810/temp_user_profile1621662133773.jpeg" width="250" height="250">
+  <img src="https://i.ibb.co/MscSKVN/KING-GOLD-THE-WHATSAPP-BOT.jpg" width="250" height="250">
   
   
   <h1>🍁  Whatsapp Bot By YASITHA OFFICAL  🍁</h1>

@@ -15,9 +15,8 @@ For Deploy � බොට්ව සෑදීම සදහා පහත රූප�
 
 ```
 
-## YASITHA OFFICAL 
-<div align="center">
-<h1>🍁 KING GOLD Bot By YASITHA OFFICAL  🍁</h1>
+KING GOLD BOT CREATED BY YASITHA OFFICAL 
+
     
 ## 🇱🇰 KingGOLD Features
 

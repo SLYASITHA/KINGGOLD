@@ -18,11 +18,11 @@ const execx = require('child_process').exec;
 const axios = require('axios');
 const Heroku = require('heroku-client');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./sewqueen/');
+const {Message, StringSession, Image, Video} = require('./kinggold/');
 const { DataTypes } = require('sequelize');
 const { GreetingsDB, getMessage } = require("./plugins/sql/greetings");
 const got = require('got');
-const Pach = require('rs-sew-queen-');
+const Pach = require('rs-king-gold-');
 const simpleGit = require('simple-git');
 const git = simpleGit();
 const crypto = require('crypto');
@@ -498,7 +498,7 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                     var chat = CdSew.chats.get(msg.key.remoteJid)
                         
                     if ((Yasiya.SUDO !== false && msg.key.fromMe === false && command.fromMe === true &&
-                        (msg.participant && Raviya.SUDO.includes(',') ? Yasiya.SUDO.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == Raviya.SUDO || Raviya.SUDO.includes(',') ? Raviya.SUDO.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == Raviya.SUDO)
+                        (msg.participant && Raviya.SUDO.includes(',') ? Yasiya.SUDO.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == Yasiya.SUDO || Yasiya.SUDO.includes(',') ? Yasiya.SUDO.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == Yasiya.SUDO)
                     ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;

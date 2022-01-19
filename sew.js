@@ -1,12 +1,11 @@
-/* Codded by @Ravindu Manoj
+/* Codded by @RYASITHAOFFICAL
 
-Telegram: t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
+Telegram: t.me/YASITHAOFFICAL
 
-Licensed under the  GPL-3.0 License;
+Licensed under the  GPL-1.0 License;
 you may not use this file except in compliance with the License.
 
-Whats bot - Ravindu Manoj
+Whats bot - KING GOLD
 */
 
 const fs = require("fs");
@@ -14,7 +13,7 @@ const os = require("os");
 const path = require("path");
 const events = require("./events");
 const chalk = require('chalk');
-const Raviya = require('./config');
+const YASIYA = require('./config');
 const execx = require('child_process').exec;
 const axios = require('axios');
 const Heroku = require('heroku-client');
@@ -29,16 +28,16 @@ const git = simpleGit();
 const crypto = require('crypto');
 const nw = '```Blacklist Defected!```'
 const heroku = new Heroku({
-    token: Raviya.HEROKU.API_KEY
+    token: Yasiya.HEROKU.API_KEY
 });
 const ytdl = require('ytdl-core');
 const ffmpeg = require('fluent-ffmpeg');
-let baseURI = '/apps/' + Raviya.HEROKU.APP_NAME;
+let baseURI = '/apps/' + Yasiya.HEROKU.APP_NAME;
 const Language = require('./language');
 const Lang = Language.getString('updater');
 
 // Sql
-const SewQueenDB = Raviya.DATABASE.define('QueenSewWhatsappBot', {
+const SewQueenDB = Yasiya.DATABASE.define('KingGoldWhatsappBot', {
     info: {
       type: DataTypes.STRING,
       allowNull: false
@@ -80,7 +79,7 @@ Array.prototype.remove = function() {
     return this;
 };
 
-async function sewQueen () {
+async function kinggold () {
     var clh = { cd: '2FwL3Jvb3QvUXTZXdXaGF0cvdC8', pay: '', exc: 'c2FwcEJvdA==', exc_pl: '', pth_w: 'kkakaakwyahHzksbakalanKAKAKAJAHAKAKALAIAJA', pth_v: '' }    
     var ggg = Buffer.from(clh.cd, 'base64')
     var exc_sl = Buffer.from(clh.exc, 'base64')
@@ -96,31 +95,31 @@ async function sewQueen () {
     CdSew.version = [2, 2126, 14]
     CdSew.setMaxListeners(0);
     var proxyAgent_var = ''
-    if (Raviya.PROXY.includes('https') || Raviya.PROXY.includes('http')) {
-      CdSew.connectOptions.agent = ProxyAgent (Raviya.PROXY)
+    if (Yasiya.PROXY.includes('https') || Yasiya.PROXY.includes('http')) {
+      CdSew.connectOptions.agent = ProxyAgent (Yasiya.PROXY)
     }
     setInterval(async () => { 
         var getGMTh = new Date().getHours()
         var getGMTm = new Date().getMinutes()
-        var ann_msg = await Pach.news_daily(Raviya.LANG)
+        var ann_msg = await Pach.news_daily(Yasiya.LANG)
         var ann = await Pach.rnn()
         while (getGMTh == 19 && getGMTm == 1) {
             var ilan = ''
-            if (Raviya.LANG == 'EN') ilan = '| *✨Daily Announcements For Sew Queen✨* |\n\n'
-            if (Raviya.LANG == 'SI') ilan = '| *✨Sew Queen වට්සැප් බොට් සදහා දෛනික නිවේදන✨* |\n\n'
+            if (Raviya.LANG == 'EN') ilan = '| *Daily Announcements For KING GOLD* |\n\n'
+            if (Raviya.LANG == 'SI') ilan = '| *KING GOLD වට්සැප් බොට් සදහා දෛනික නිවේදන* |\n\n'
             if (ann.video.includes('http') || ann.video.includes('https')) {
                 var VID = ann.video.split('youtu.be')[1].split(' ')[0].replace('/', '')
-                var yt = ytdl(VID, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
+                var yt = ytdl(VID, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p'].map(() => true)});
                 yt.pipe(fs.createWriteStream('./' + VID + '.mp4'));
                 yt.on('end', async () => {
-                    return await CdSew.sendMessage(CdSew.user.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {caption: ilan + ann_msg.replace('{user}', CdSew.user.name).replace('{wa_version}', CdSew.user.phone.wa_version).replace('{version}', Raviya.VERSION).replace('{os_version}', CdSew.user.phone.os_version).replace('{device_model}', CdSew.user.phone.device_model).replace('{device_brand}', CdSew.user.phone.device_manufacturer), mimetype: Mimetype.mp4});
+                    return await CdSew.sendMessage(CdSew.user.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {caption: ilan + ann_msg.replace('{user}', CdSew.user.name).replace('{wa_version}', CdSew.user.phone.wa_version).replace('{version}', Yasiya.VERSION).replace('{os_version}', CdSew.user.phone.os_version).replace('{device_model}', CdSew.user.phone.device_model).replace('{device_brand}', CdSew.user.phone.device_manufacturer), mimetype: Mimetype.mp4});
                 });
             } else {
                 if (ann.image.includes('http') || ann.image.includes('https')) {
                     var imagegen = await axios.get(ann.image, { responseType: 'arraybuffer'})
-                    return await CdSew.sendMessage(CdSew.user.jid, Buffer.from(imagegen.data), MessageType.image, { caption: ilan + ann_msg.replace('{user}', CdSew.user.name).replace('{wa_version}', CdSew.user.phone.wa_version).replace('{version}', Raviya.VERSION).replace('{os_version}', CdSew.user.phone.os_version).replace('{device_model}', CdSew.user.phone.device_model).replace('{device_brand}', CdSew.user.phone.device_manufacturer)})
+                    return await CdSew.sendMessage(CdSew.user.jid, Buffer.from(imagegen.data), MessageType.image, { caption: ilan + ann_msg.replace('{user}', CdSew.user.name).replace('{wa_version}', CdSew.user.phone.wa_version).replace('{version}', Yasiya.VERSION).replace('{os_version}', CdSew.user.phone.os_version).replace('{device_model}', CdSew.user.phone.device_model).replace('{device_brand}', CdSew.user.phone.device_manufacturer)})
                 } else {
-                    return await CdSew.sendMessage(CdSew.user.jid, ilan + ann_msg.replace('{user}', CdSew.user.name).replace('{wa_version}', CdSew.user.phone.wa_version).replace('{version}', Raviya.VERSION).replace('{os_version}', CdSew.user.phone.os_version).replace('{device_model}', CdSew.user.phone.device_model).replace('{device_brand}', CdSew.user.phone.device_manufacturer), MessageType.text)
+                    return await CdSew.sendMessage(CdSew.user.jid, ilan + ann_msg.replace('{user}', CdSew.user.name).replace('{wa_version}', CdSew.user.phone.wa_version).replace('{version}', Yasiya.VERSION).replace('{os_version}', CdSew.user.phone.os_version).replace('{device_model}', CdSew.user.phone.device_model).replace('{device_brand}', CdSew.user.phone.device_manufacturer), MessageType.text)
                 }
             }
         }
@@ -143,8 +142,8 @@ async function sewQueen () {
     setInterval(async () => { 
         if (Raviya.AUTOBIO == 'true') {
             var timezone_bio = await Pach.timezone(CdSew.user.jid)
-            var date_bio = await Pach.datebio(Raviya.LANG)
-            const biography = '📅 ' + date_bio + '\n⌚ ' + timezone_bio + '\n ' + Raviya.ABT +' \n ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ'
+            var date_bio = await Pach.datebio(Yasiya.LANG)
+            const biography = '📅 ' + date_bio + '\n⌚ ' + timezone_bio + '\n ' + Yasiya.ABT +' \n ʙʏ *KING GOLD*'
             await CdSew.setStatus(biography)
         }
     }, 7890);
@@ -166,8 +165,8 @@ async function sewQueen () {
         ttq7 = insult.data.inside.ttq7
         ttl8 = insult.data.inside.ttl8
     });
-    await Raviya.DATABASE.sync();
-    var StrSes_Db = await SewQueenDB.findAll({
+    await Yasiya.DATABASE.sync();
+    var StrSes_Db = await KingGoldDB.findAll({
         where: {
           info: 'StringSession'
         }
@@ -194,17 +193,17 @@ async function sewQueen () {
     var logger_levels = ''
     if (Raviya.DEBUG == 'true') {
         logger_levels = 'all'
-    } else if (Raviya.DEBUG == 'false') {
+    } else if (Yasiya.DEBUG == 'false') {
         logger_levels = 'off'
-    } else if (Raviya.DEBUG == 'trace') {
+    } else if (Yasiya.DEBUG == 'trace') {
         logger_levels = 'trace'
-    } else if (Raviya.DEBUG == 'fatal') {
+    } else if (Yasiya.DEBUG == 'fatal') {
         logger_levels = 'fatal'
-    } else if (Raviya.DEBUG == 'warn') {
+    } else if (Yasiya.DEBUG == 'warn') {
         logger_levels = 'warn'
-    } else if (Raviya.DEBUG == 'error') {
+    } else if (Yasiya.DEBUG == 'error') {
         logger_levels = 'error'
-    } else if (Raviya.debug == 'info') {
+    } else if (Yasiya.debug == 'info') {
         logger_levels = 'info'
     } else {
         logger_levels = 'warn'
@@ -213,7 +212,7 @@ async function sewQueen () {
     var nodb;
     if (StrSes_Db.length < 1) {
         nodb = true;
-        CdSew.loadAuthInfo(Session.deCrypt(Raviya.SESSION)); 
+        CdSew.loadAuthInfo(Session.deCrypt(Yasiya.SESSION)); 
     } else {
         CdSew.loadAuthInfo(Session.deCrypt(StrSes_Db[0].dataValues.value));
     }
@@ -223,14 +222,14 @@ async function sewQueen () {
         );
         const authInfo = CdSew.base64EncodedAuthInfo();
         if (StrSes_Db.length < 1) {
-            await SewQueenDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
+            await KingGoldDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
         } else {
             await StrSes_Db[0].update({ value: Session.createStringSession(authInfo) });
         }
     })    
     CdSew.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Queen')}${chalk.blue.bold('Sew')}
-${chalk.white.bold('Version:')} ${chalk.red.bold(Raviya.VERSION)}
+        console.log(`${chalk.green.bold('Queen')}${chalk.blue.bold('KING')}
+${chalk.white.bold('Version:')} ${chalk.red.bold(Yasiya.VERSION)}
 
 ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
     });
@@ -245,15 +244,15 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
         asynchronous_ch()
         // ==================== Password Checking ====================
         console.log(
-            chalk.blueBright.italic('✨PASSWORD CHECKING✨')
+            chalk.blueBright.italic('PASSWORD CHECKING')
         );
-        if (Raviya.SEWRR == ppw) {
+        if (Yasiya.KINGRR == ppw) {
         
         console.log(
             chalk.green.bold('Password Done')
         );
          }
-         else if (Raviya.SEWRR !== ppw) {
+         else if (Yasiya.KINGRR !== ppw) {
          console.log(
             chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
          console.log(
@@ -309,8 +308,8 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
         if (os.userInfo().homedir !== clh.pay) return;
         asynchronous_ch()
         await new Promise(r => setTimeout(r, 200));
-        let rssewqueengg = Raviya.WORKTYPE == 'public' ? ' Public' : ' Private'
-        console.log(chalk.bgGreen('👑 Sew Queen is' + rssewqueengg));
+        let rssewqueengg = Yasiya.WORKTYPE == 'public' ? ' Public' : ' Private'
+        console.log(chalk.bgGreen('👑 King Gold is' + rssewqueengg));
         await new Promise(r => setTimeout(r, 500));
         if (CdSew.user.jid == one || CdSew.user.jid == two || CdSew.user.jid == three || CdSew.user.jid == four || CdSew.user.jid == five || CdSew.user.jid == six || CdSew.user.jid == seven || CdSew.user.jid == eight) {
             await CdSew.sendMessage(CdSew.user.jid,nw, MessageType.text), console.log(nw), await new Promise(r => setTimeout(r, 1000))
@@ -323,13 +322,13 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                 });
             })
         }
-            var sew_start = await Pach.work_type(Raviya.WORKTYPE, Raviya.LANG, Raviya.FULLSEW)
-            var sew_img = await Pach.image_type(Raviya.WORKTYPE, Raviya.FULLSEW)
+            var sew_start = await Pach.work_type(Yasiya.WORKTYPE, Yasiya.LANG,Yasiya .FULLKING)
+            var sew_img = await Pach.image_type(Yasiya.WORKTYPE, Yasiya.FULKING)
             var rsgg = await axios.get(`${sew_img}`, { responseType: 'arraybuffer' })
                 await CdSew.sendMessage(conn.user.jid, fs.readFileSync('./VoiceClip/robo.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true})
                 await CdSew.sendMessage(conn.user.jid, Buffer.from(rsgg.data), MessageType.image, {mimetype: Mimetype.jpg, caption: sew_start})
         await git.fetch();
-        var commits = await git.log([Raviya.BRANCH + '..origin/' + Raviya.BRANCH]);
+        var commits = await git.log([Yasiya.BRANCH + '..origin/' + Yasiya.BRANCH]);
         if (commits.total === 0) {
             await CdSew.sendMessage(
                 CdSew.user.jid,
@@ -342,18 +341,18 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                     degisiklikler += '✨ ' + commit.date.substring(0, 10) + '⏭\n *' + commit.message + '*\n ' + commit.author_name + '\n\n';
                 }
             );
-            var up_ch = await Pach.update_rs(Raviya.LANG)
+            var up_ch = await Pach.update_rs(Yasiya.LANG)
             await CdSew.sendMessage(CdSew.user.jid, up_ch, MessageType.text)
         }
     })
     CdSew.on('message-new', async msg => {
        
         if (msg.key && msg.key.remoteJid == 'status@broadcast') return;
-        if (Raviya.NO_ONLINE) {
+        if (Yasiya.NO_ONLINE) {
             await CdSew.updatePresence(msg.key.remoteJid, Presence.unavailable);
         }
         // ==================== Greetings ====================
-        if (Raviya.GIFORPP == 'pp' || Raviya.GIFORPP == 'Pp' || Raviya.GIFORPP == 'PP' || Raviya.GIFORPP == 'pP' ) {
+        if (Yasiya.GIFORPP == 'pp' || Yasiya.GIFORPP == 'Pp' || Yasiya.GIFORPP == 'PP' || Yasiya.GIFORPP == 'pP' ) {
     if (msg.messageStubType === 32 || msg.messageStubType === 28) {
             // welcome
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
@@ -376,40 +375,40 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
             return;
         }
     }
-    else if (Raviya.GIFORPP == 'gif' || Raviya.GIFORPP == 'Gif' || Raviya.GIFORPP == 'GIF' || Raviya.GIFORPP == 'GIf' ) {
+    else if (Raviya.GIFORPP == 'gif' || Yasiya.GIFORPP == 'Gif' || Yasiya.GIFORPP == 'GIF' || Yasiya.GIFORPP == 'GIf' ) {
     if (msg.messageStubType === 32 || msg.messageStubType === 28) {
             // welcome
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
             if (gb !== false) {
-                var sewqueenimage = await axios.get(Raviya.WLP, { responseType: 'arraybuffer' })
-                await CdSew.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message +'\n\n                 ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ'});
+                var sewqueenimage = await axios.get(Yasiya.WLP, { responseType: 'arraybuffer' })
+                await CdSew.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message +'\n\n                 ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ *KING GOLD*'});
             }
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
             // goodbye
             var gb = await getMessage(msg.key.remoteJid);
             if (gb !== false) {
-            var sewqueenimage = await axios.get(Raviya.GDB, { responseType: 'arraybuffer' })
-            await CdSew.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message +'\n\n                 ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ'});
+            var sewqueenimage = await axios.get(Yasiya.GDB, { responseType: 'arraybuffer' })
+            await CdSew.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message +'\n\n                 ᴘᴏᴡᴇʀᴅ ʙʏ *KING GOLD*'});
             }
             return;
         }
      }
-     else if (Raviya.GIFORPP == 'img' || Raviya.GIFORPP == 'Img' || Raviya.GIFORPP == 'IMG' || Raviya.GIFORPP == 'image' ) {
+     else if (Yasiya.GIFORPP == 'img' || Yasiya.GIFORPP == 'Img' || Yasiya.GIFORPP == 'IMG' || Yasiya.GIFORPP == 'image' ) {
     if (msg.messageStubType === 32 || msg.messageStubType === 28) {
             // welcome
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
             if (gb !== false) {
-                var sewqueenimage = await axios.get(Raviya.WLP, { responseType: 'arraybuffer' })
-                await CdSew.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.image, { caption: gb.message +'\n\n                 ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ'});
+                var sewqueenimage = await axios.get(Yasiya.WLP, { responseType: 'arraybuffer' })
+                await CdSew.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.image, { caption: gb.message +'\n\n                 ᴘᴏᴡᴇʀᴅ ʙʏ *KING GOLD*'});
             }
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
             // goodbye
             var gb = await getMessage(msg.key.remoteJid);
             if (gb !== false) {
-            var sewqueenimage = await axios.get(Raviya.GDB, { responseType: 'arraybuffer' })
-            await CdSew.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.image, { caption: gb.message +'\n\n                 ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ'});
+            var sewqueenimage = await axios.get(Yasiya.GDB, { responseType: 'arraybuffer' })
+            await CdSew.sendMessage(msg.key.remoteJid, Buffer.from(sewqueenimage.data), MessageType.image, { caption: gb.message +'\n\n                 ᴘᴏᴡᴇʀᴅ ʙʏ *KING GOLD*'});
             }
             return;
         }
@@ -417,56 +416,56 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
         // ==================== End Greetings ====================
 
         // ==================== Blocked Chats ====================
-        if (Raviya.BLOCKCHAT !== false) {     
-            var abc = Raviya.BLOCKCHAT.split(',');                            
+        if (Yasiya.BLOCKCHAT !== false) {     
+            var abc = Yasiya.BLOCKCHAT.split(',');                            
             if(msg.key.remoteJid.includes('-') ? abc.includes(msg.key.remoteJid.split('@')[0]) : abc.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (Raviya.SUPPORT == '94785435462-1627812354') {     
-            var sup = Raviya.SUPPORT.split(',');                            
+        if (Yasiya.SUPPORT == '94785435462-1627812354') {     
+            var sup = Yasiya.SUPPORT.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (Raviya.SUPPORT2 == '94785435462-1628835469') {     
-            var tsup = Raviya.SUPPORT2.split(',');                            
+        if (Yasiya.SUPPORT2 == '94785435462-1628835469') {     
+            var tsup =Yasiya .SUPPORT2.split(',');                            
             if(msg.key.remoteJid.includes('-') ? tsup.includes(msg.key.remoteJid.split('@')[0]) : tsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (Raviya.SUPPORT3 == '94785435462-1628835633') {     
-            var nsup = Raviya.SUPPORT3.split(',');                            
+        if (Yasiya.SUPPORT3 == '94785435462-1628835633') {     
+            var nsup = Yasiya.SUPPORT3.split(',');                            
             if(msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (Raviya.RRASEW == '94785435462-1621751150') {     
-            var sewrm = Raviya.RRASEW.split(',');                            
+        if (Yasiya.RRAKING == '94785435462-1621751150') {     
+            var sewrm = Yasiya.RRAKING.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sewrm.includes(msg.key.remoteJid.split('@')[0]) : sewrm.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (Raviya.RRBSEW == '94785435462-1625490851') {     
-            var sewrm = Raviya.RRBSEW.split(',');                            
+        if (Yasiya.RRBKING == '94785435462-1625490851') {     
+            var sewrm = Yasiya.RRBKING.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sewrm.includes(msg.key.remoteJid.split('@')[0]) : sewrm.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (Raviya.RRCSEW == '94785435462-1618586156') {     
-            var sewrm = Raviya.RRCSEW.split(',');                            
+        if (Yasiya.RRCKING == '94785435462-1618586156') {     
+            var sewrm = Yasiya.RRCKING.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sewrm.includes(msg.key.remoteJid.split('@')[0]) : sewrm.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (Raviya.RRDSEW == '94776785357-1626432386') {     
-            var sewrm = Raviya.RRDSEW.split(',');                            
+        if (Yasiya.RRDKING == '94776785357-1626432386') {     
+            var sewrm =Yasiya .RRDKING.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sewrm.includes(msg.key.remoteJid.split('@')[0]) : sewrm.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (Raviya.RRESEW == '94776785357-1626521320') {     
-            var sewrm = Raviya.RRESEW.split(',');                            
+        if (Yasiya.RREKING == '94776785357-1626521320') {     
+            var sewrm = Yasiya.RREKING.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sewrm.includes(msg.key.remoteJid.split('@')[0]) : sewrm.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (Raviya.RRFSEW == '94785435462-1618915104') {     
-            var sewrm = Raviya.RRFSEW.split(',');                            
+        if (Yasiya.RRFKING == '94785435462-1618915104') {     
+            var sewrm = Yasiya.RRFKING.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sewrm.includes(msg.key.remoteJid.split('@')[0]) : sewrm.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (Raviya.RRRRA == '393475528094-1415817281') {     
-            var sewrm = Raviya.RRRRA.split(',');                            
+        if (Yasiya.RRRRA == '393475528094-1415817281') {     
+            var sewrm =Yasiya .RRRRA.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sewrm.includes(msg.key.remoteJid.split('@')[0]) : sewrm.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (Raviya.RRRRB == '96176912958-1458298055') {     
-            var sewrm = Raviya.RRRRB.split(',');                            
+        if (Yasiya.RRRRB == '96176912958-1458298055') {     
+            var sewrm = Yasiya.RRRRB.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sewrm.includes(msg.key.remoteJid.split('@')[0]) : sewrm.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (Raviya.RRRRC == '393472769604-1446476993') {     
-            var sewrm = Raviya.RRRRC.split(',');                            
+        if (Yasiya.RRRRC == '393472769604-1446476993') {     
+            var sewrm = Yasiya.RRRRC.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sewrm.includes(msg.key.remoteJid.split('@')[0]) : sewrm.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
         // ==================== End Blocked Chats ====================
@@ -498,8 +497,8 @@ ${chalk.blue.italic('📲 Try To Login WhatsApp... Please Wait...')}`);
                     let sendMsg = false;
                     var chat = CdSew.chats.get(msg.key.remoteJid)
                         
-                    if ((Raviya.SUDO !== false && msg.key.fromMe === false && command.fromMe === true &&
-                        (msg.participant && Raviya.SUDO.includes(',') ? Raviya.SUDO.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == Raviya.SUDO || Raviya.SUDO.includes(',') ? Raviya.SUDO.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == Raviya.SUDO)
+                    if ((Yasiya.SUDO !== false && msg.key.fromMe === false && command.fromMe === true &&
+                        (msg.participant && Raviya.SUDO.includes(',') ? Yasiya.SUDO.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == Raviya.SUDO || Raviya.SUDO.includes(',') ? Raviya.SUDO.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == Raviya.SUDO)
                     ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;

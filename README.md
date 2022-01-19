@@ -1,10 +1,10 @@
 <div align="center">
-<h1>🍁  Whatsapp Bot By YASITHA OFFICAL  🍁</h1>
+<h1>🍁 KING GOLD  Whatsapp Bot By YASITHA OFFICAL  🍁</h1>
 </div>
 
 
 
-🇱🇰 FORE QR SCAN 👇👇👇👇 QR කේතය ලබාගැනීමට පහත රූපය මත ටච් කරන්න
+🇱🇰 FORE QR SCAN 👇 QR කේතය ලබාගැනීමට පහත රූපය මත ටච් කරන්න
 
 [![Run on Repl.it](resources/gif/qr-scan.gif?size=40)](https://replit.com/@YasithaUdayang1/KING-GOLD-QR#index.js)
 For Deploy 👇👇👇 බොට්ව සෑදීම සදහා පහත රූපය මත ටච් කරන්න
@@ -22,8 +22,8 @@ For Deploy 👇👇👇 බොට්ව සෑදීම සදහා පහත �
 <img src="https://i.ibb.co/MscSKVN/KING-GOLD-THE-WHATSAPP-BOT.jpg" />
   </div>
 
-- [RavinduManoj](https://github.com/RavinduManoj)
-- [@RavinduManoj](https://t.me/RavinduManoj)
+- [RavinduManoj](https://github.com/SLYASITHA)
+- [@RavinduManoj](https://t.me/YASITHA OFFICAL)
 
 
 <div align="center">

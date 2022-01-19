@@ -1,18 +1,18 @@
-<h1>😈You Can't Access My Mp3 Voice Notes😈 </h1>
+<h1> You Can't Access My Mp3 Voice Notes </h1>
 
 
 <h2>😤Go away, the fox who steals the programmer's intelligence 😂😡</h2>
-#Programmer Ravindu Manoj...
+#Programmer YASITHA OFFICAL...
 
 
 <div align="center">
-<img src="https://github.com/Sew01RaviduManoj01KingAndQueen/imagehosting/blob/00aa7f2685f0114a2111f57149d8f0a27b2481c9/VID-20210724-WA0003.gif" />
+<img src="https://i.ibb.co/MscSKVN/KING-GOLD-THE-WHATSAPP-BOT.jpg" />
   </div>
-*♕❄SEW QUEEN 2.0.0 - Full Control - Dual Bot Mode❄♔*
+*❄KING GOLD 1.0.0 - Full Control - Dual Bot Mode❄*
 
 1st bot
 
-*✨Sew Queen Whatsapp Bot ✨★➳*
+*🔰 King Gold Whatsapp Bot🔰 *
 
 ❯❯❯added new ttp list ==> .sewttp
 
@@ -38,7 +38,7 @@
 
 ❯❯❯new text maker list ==> .sew3maker (adding 100+ new text to image soonly)
 
-❯❯❯dual bot mod ==> .kingraviya && .queensew or .setvar BOT_MODE:kingraviya && .setvar BOT_MODE:queensew
+❯❯❯dual bot mod ==> .kingyasiya && .KINGGOLD or .setvar BOT_MODE:kingyasiya && .setvar BOT_MODE:KINGDOLD
 
 2nd Bot
 
@@ -56,7 +56,7 @@
 
 && Fixed some Errors And Bugs
 
-*SEW QUEEN 2.0.0  - FULL CONTROL - ද්විත්ව බොට් ප්‍රකාරය♔*
+*KING GOLD 1.0.0  - FULL CONTROL - ද්විත්ව බොට් ප්‍රකාරය♔*
 
 1 වන බොට්
 
@@ -86,7 +86,7 @@
 
 ❯❯❯නව ලෝගො මේකර් ලැයිස්තුව ==> .sew3maker (ඉක්මනින් පින්තූරයට නව පෙළ 100+ එකතු කිරීම)
 
-❯❯❯ද්විත්ව බොට් මොඩ් (බොට්ව මාරු කිරීම සදහා යොදා ගන්න ) ==> .kingraviya && .queensew
+❯❯❯ද්විත්ව බොට් මොඩ් (බොට්ව මාරු කිරීම සදහා යොදා ගන්න ) ==> .kingyasiya && .KINGGOLD
 
 2 වෙනි බොට් 
 

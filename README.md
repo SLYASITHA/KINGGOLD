@@ -19,28 +19,8 @@ For Deploy � බොට්ව සෑදීම සදහා පහත රූප�
 ### KINGGOLD BOT FOR YOUR HELP😇
 
 <div align="center">
-<img src="https://i.ibb.co/MscSKVN/KING-GOLD-THE-WHATSAPP-BOT.jpg" />
-  </div>
-
-- [@YsithaOffical](https://github.com/SLYASITHA)
-- [@YasithaOffical](https://t.me/YASITHA OFFICAL)
-
-
-<div align="center">
-  <img src="https://i.ibb.co/MscSKVN/KING-GOLD-THE-WHATSAPP-BOT.jpg" width="250" height="250">
-  
-  
-  <h1>🍁  Whatsapp Bot By YASITHA OFFICAL  🍁</h1>
-  <h1>🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰🇱🇰</h1>
-
-
-
-
-##
-
-### ⚒️ Setup Wiki - Kurulum [Full Guide - By YASITHA OFFICAL]
-[![Setup - Yasiya](https://i.ibb.co/MscSKVN/KING-GOLD-THE-WHATSAPP-BOT.jpg?size=75 )](https://github.com/SLYASITHA/YasiyaBot/wiki)
-
+<img src="https://i.ibb.co/MscSKVN/KING-GOLD-THE-WHATSAPP-BOT.jpg"/>
+ 
 
     
 ## 🇱🇰 KingGOLD Features

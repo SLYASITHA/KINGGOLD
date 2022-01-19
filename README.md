@@ -16,12 +16,8 @@ For Deploy � බොට්ව සෑදීම සදහා පහත රූප�
 ```
 
 ## YASITHA OFFICAL 
-### KINGGOLD BOT FOR YOUR HELP😇
-
 <div align="center">
- <img border-radius: 15px src= "https://i.ibb.co/WGNfQhB/IMG-20210820-001112.jpg" width="200" height="200"/>
- 
-
+<h1>🍁 KING GOLD Bot By YASITHA OFFICAL  🍁</h1>
     
 ## 🇱🇰 KingGOLD Features
 

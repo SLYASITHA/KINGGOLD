@@ -1,29 +1,29 @@
 {
-  "name": "rs-sew-queen",
-  "version": "2.0.0",
-  "description": "Sew Queen.",
-  "main": "./SewQueen/sew.js",
+  "name": "rs-king-gold",
+  "version": "1.0.0",
+  "description": "King Gold.",
+  "main": "./KingGold/sew.js",
   "scripts": {
     "start": "supervisor -s sew.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kingRavindu/sew/"
+    "url": "https://github.com/KingYasitha/king/"
   },
   "keywords": [
     "whatsapp",
-    "sew",
+    "king",
     "queen",
-    "sewqueen",
+    "kinggold",
     "bot"
   ],
-  "author": "Ravindu",
+  "author": "Yasitha",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/kingRavindu/sew/issues"
+    "url": "https://github.com/kingYasitha/king/issues"
   },
-  "homepage": "https://github.com/kingRavindu/sew#readme",
+  "homepage": "https://github.com/kingYasitha/king#readme",
   "dependencies": {
-    "rs-sew-queen": "2.0.0"
+    "rs-king-gold": "1.0.0"
   }
 }

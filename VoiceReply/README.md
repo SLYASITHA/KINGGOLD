@@ -12,7 +12,7 @@
 
 1st bot
 
-*🔰 King Gold Whatsapp Bot🔰 *
+*🔰 King Gold Whatsapp Bot🔰*
 
 ❯❯❯added new ttp list ==> .sewttp
 

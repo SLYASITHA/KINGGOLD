@@ -20,9 +20,10 @@ A clear and concise description of any alternative solutions or features you've 
 Add any other context or screenshots about the feature request here.
 *♕❄SEW QUEEN 2.0.0 - Full Control - Dual Bot Mode❄♔*
 
+
 1st bot
 
-*✨Sew Queen Whatsapp Bot ✨★➳*
+*🔰 King Gold Whatsapp Bot🔰 *
 
 ❯❯❯added new ttp list ==> .sewttp
 
@@ -48,11 +49,11 @@ Add any other context or screenshots about the feature request here.
 
 ❯❯❯new text maker list ==> .sew3maker (adding 100+ new text to image soonly)
 
-❯❯❯dual bot mod ==> .kingraviya && .queensew or .setvar BOT_MODE:kingraviya && .setvar BOT_MODE:queensew
+❯❯❯dual bot mod ==> .kingyasiya && .KINGGOLD or .setvar BOT_MODE:kingyasiya && .setvar BOT_MODE:KINGDOLD
 
 2nd Bot
 
-*✨King Raviya 18 + whatsapp bot ✨★➳*
+*✨King Yasiya 18 + whatsapp bot ✨★➳*
 
 ❯❯❯phub search ==> .pornhub your text
 
@@ -66,11 +67,11 @@ Add any other context or screenshots about the feature request here.
 
 && Fixed some Errors And Bugs
 
-*SEW QUEEN 2.0.0  - FULL CONTROL - ද්විත්ව බොට් ප්‍රකාරය♔*
+*KING GOLD 1.0.0  - FULL CONTROL - ද්විත්ව බොට් ප්‍රකාරය♔*
 
 1 වන බොට්
 
-*Sew Queen Whatsapp Bot★ ➳*
+*🔰 King Gold Whatsapp Bot🔰*
 
 ❯❯❯නව ttp ලැයිස්තුව එකතු කරන ලදි ==> .sewttp
 
@@ -96,11 +97,11 @@ Add any other context or screenshots about the feature request here.
 
 ❯❯❯නව ලෝගො මේකර් ලැයිස්තුව ==> .sew3maker (ඉක්මනින් පින්තූරයට නව පෙළ 100+ එකතු කිරීම)
 
-❯❯❯ද්විත්ව බොට් මොඩ් (බොට්ව මාරු කිරීම සදහා යොදා ගන්න ) ==> .kingraviya && .queensew
+❯❯❯ද්විත්ව බොට් මොඩ් (බොට්ව මාරු කිරීම සදහා යොදා ගන්න ) ==> .kingyasiya && .KINGGOLD
 
 2 වෙනි බොට් 
 
-*King Raviya 18 + වට්ස්ඇප් බොට් ★ ➳*
+*King Yasiya 18 + වට්ස්ඇප් බොට් ★ ➳*
 
 ❯❯❯pornhub සෙවුම ==> .pornhub your text
 

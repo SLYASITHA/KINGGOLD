@@ -1,12 +1,11 @@
-/* Codded by @Ravindu Manoj
+/* Codded by @YASITH OFFICAL
 
-Telegram: t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
+Telegram: t.me/YASITHAOFFICAL
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-Whats bot - Ravindu Manoj
+Whats bot - YASITHA OFFICAL
 
 
 */
@@ -19,10 +18,10 @@ function newcmdaddtosew(info, func) {
 
     var infos = {
         fromMe: info['fromMe'] === undefined ? true : info['fromMe'], // Or Sudo
-        onlyGrpSew: info['onlyGrpSew'] === undefined ? false : info['onlyGrpSew'],
+        onlyGrpSew: info['onlyGrpSew'] === undefined ? false : info['onlyGrpKing'],
         onlyPinned: info['onlyPinned'] === undefined ? false : info['onlyPinned'],
         onlyPm: info['onlyPm'] === undefined ? false : info['onlyPm'],
-        delownsewcmd: info['delownsewcmd'] === undefined ? true : info['delownsewcmd'],
+        delownsewcmd: info['delownsewcmd'] === undefined ? true : info['delownkingcmd'],
         desc: info['desc'] === undefined ? '' : info['desc'],
         usage: info['usage'] === undefined ? '' : info['usage'],
         dontAdCommandList: info['dontAdCommandList'] === undefined ? false : info['dontAdCommandList'],
@@ -48,6 +47,6 @@ function newcmdaddtosew(info, func) {
 }
 
 module.exports = {
-    newcmdaddtosew: newcmdaddtosew,
+    newcmdaddtoking: newcmdaddtoking,
     commands: Commands
 }

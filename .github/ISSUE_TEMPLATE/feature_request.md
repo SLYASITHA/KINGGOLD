@@ -18,7 +18,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 **Additional context**
 Add any other context or screenshots about the feature request here.
-*♕❄SEW QUEEN 2.0.0 - Full Control - Dual Bot Mode❄♔*
+*🔰 King Gold Whatsapp Bot🔰 1.0.0 - Full Control - Dual Bot Mode*
 
 
 1st bot

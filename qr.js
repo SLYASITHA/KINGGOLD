@@ -1,12 +1,11 @@
-/* Codded by @Ravindu Manoj
+/* Codded by @YASITHA OFFICAL
 
-Telegram: t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
+Telegram: t.me/YASITHA OFFICAL
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-Whats bot - Ravindu Manoj
+Whats bot - YASITHA OFFICAL
 */
 
 const chalk = require('chalk');
@@ -22,7 +21,7 @@ async function sewQueen () {
     conn.regenerateQRIntervalMs = 50000;
     
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Queen')}${chalk.blue.bold('Sew')}
+        console.log(`${chalk.green.bold('KING')}${chalk.blue.bold('GOLD')}
 ${chalk.white.italic('QueenSewString')}
 
 ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
@@ -32,7 +31,7 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
     conn.on('open', async () => {
         var st = Session.createStringSession(conn.base64EncodedAuthInfo());
         console.log(
-            chalk.green.bold('Queen Sew String: '), Session.createStringSession(conn.base64EncodedAuthInfo())
+            chalk.green.bold('KING GOLD String: '), Session.createStringSession(conn.base64EncodedAuthInfo())
         );
         
         if (!fs.existsSync('config.env')) {
@@ -40,16 +39,16 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
         }
         if (conn.user.jid.startsWith('90')) {
             await conn.sendMessage(conn.user.jid,st, MessageType.text)
-            await conn.sendMessage(conn.user.jid,'*sew*', MessageType.text)
+            await conn.sendMessage(conn.user.jid,'*KING*', MessageType.text)
             console.log(
-                chalk.blue.bold('sew.')
+                chalk.blue.bold('KING.')
             );
         }
         else {
             await conn.sendMessage(conn.user.jid,st, MessageType.text)
             await conn.sendMessage(conn.user.jid,'*Do Not Share This Code With Anyone!*', MessageType.text)
             console.log(
-                chalk.blue.bold('If you are installing locale, you can start the bot with node sew.js')
+                chalk.blue.bold('If you are installing locale, you can start the bot with node king.js')
             );
         }
         
@@ -59,4 +58,4 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
     await conn.connect();
 }
 
-sewQueen()
+kingGold()
